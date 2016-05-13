@@ -60,6 +60,11 @@ html, body {
     padding-top: 300px;
     color: #02C39A; }
 
+footer {
+  width: 100%;
+  height: 200px;
+  background-color: #7f7f7f; }
+
 .hero-image {
   width: 100%;
   height: 100vh;
@@ -151,5 +156,12 @@ html, body {
   background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../img/workwork.jpg");
   background-repeat: no-repeat;
   background-size: contain; }
+
+.section-four {
+  width: 100%;
+  height: 600px;
+  background-image: linear-gradient(rgba(255, 255, 255, 0.6), rgba(255, 255, 255, 0.6)), url("../img/blurryweights.jpg");
+  background-repeat: no-repeat;
+  background-size: cover; }
 
 /*# sourceMappingURL=main.css.map */

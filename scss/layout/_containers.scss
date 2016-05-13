@@ -119,3 +119,14 @@
   background-repeat: no-repeat;
   background-size: contain;
 }
+
+.section-four {
+  width: 100%;
+  height: 600px;
+  background-image:
+    linear-gradient(rgba(255, 255, 255, 0.6), rgba(255, 255, 255, 0.6)),
+    url("../img/blurryweights.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
