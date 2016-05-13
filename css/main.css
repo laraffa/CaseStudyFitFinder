@@ -152,10 +152,42 @@ footer {
 
 .section-three {
   width: 100%;
-  height: 600px;
+  height: 800px;
   background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../img/workwork.jpg");
   background-repeat: no-repeat;
-  background-size: contain; }
+  background-size: contain;
+  color: #f5f5f5; }
+  .section-three .line4 {
+    width: 1000px;
+    margin-top: 0; }
+  .section-three h1 {
+    font-family: "Stardos Stencil", cursive;
+    margin: auto 0;
+    padding: 30px;
+    padding-bottom: 10px;
+    font-size: 35px;
+    display: flex;
+    justify-content: center; }
+  .section-three .challenge-solution {
+    display: flex;
+    justify-content: flex-end; }
+    .section-three .challenge-solution .para {
+      width: 700px;
+      font-family: "Quicksand", sans-serif;
+      padding-right: 40px; }
+      .section-three .challenge-solution .para span {
+        font-size: 40px;
+        color: #7f7f7f; }
+      .section-three .challenge-solution .para .desktop {
+        width: 300px;
+        height: 300px;
+        display: flex;
+        flex-wrap: wrap; }
+      .section-three .challenge-solution .para .mobile {
+        width: 500px;
+        height: 450px;
+        display: flex;
+        flex-wrap: wrap; }
 
 .section-four {
   width: 100%;

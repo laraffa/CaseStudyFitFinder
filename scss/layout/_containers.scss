@@ -111,13 +111,55 @@
 }
 
 .section-three {
+  .line4 {
+    width: 1000px;
+    margin-top: 0;
+  }
   width: 100%;
-  height: 600px;
+  height: 800px;
   background-image:
     linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
     url("../img/workwork.jpg");
   background-repeat: no-repeat;
   background-size: contain;
+  color: $font-color-main;
+  h1 {
+    font-family: $font-stack-head;
+    margin: auto 0;
+    padding: 30px;
+    padding-bottom: 10px;
+    font-size: 35px;
+    display: flex;
+    justify-content: center;
+
+  }
+  .challenge-solution {
+    display: flex;
+    justify-content: flex-end;
+    .para {
+      width: 700px;
+      font-family: $font-stack-sub;
+      padding-right: 40px;
+
+      span {
+        font-size: 40px;
+        color: $seconday-color-grey;
+      }
+      .desktop {
+        width: 300px;
+        height: 300px;
+        display: flex;
+        flex-wrap: wrap;
+
+      }
+      .mobile {
+        width: 500px;
+        height: 450px;
+        display: flex;
+        flex-wrap: wrap;
+      }
+    }
+  }
 }
 
 .section-four {
