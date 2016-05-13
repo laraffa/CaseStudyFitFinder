@@ -170,5 +170,50 @@
     url("../img/blurryweights.jpg");
     background-repeat: no-repeat;
     background-size: cover;
+    .section-four-header {
+      h1 {
+        color: $seconday-color-blue;
+        font-family: $font-stack-head;
+        margin: auto 0;
+        padding-top: 30px;
+        padding-left: 300px;
+        padding-bottom: 10px;
+        font-size: 35px;
+      }
+      .line5 {
+        height: 3px;
+        width: 1700px;
+        margin-bottom: 30px;
+        color: $seconday-color-blue;
+        background-color:$seconday-color-blue;
+      }
+    }
+    .section-four-body {
+      max-width: 1800px;
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      margin: 0 auto;
+      color: $seconday-color-blue;
+      font-family: $font-stack-sub;
+      span {
+        font-size: 45px;
+        color: $seconday-color-grey;
+      }
+      p {
+        width: 300px;
+        text-align: center;
+
+      }
+      i {
+        font-size: 100px;
+        color: $seconday-color-grey;
+      }
+      .section {
+        width: 400px;
+        text-align: center;
+        padding: 40px;
+      }
+    }
 
 }
