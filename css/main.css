@@ -31,6 +31,12 @@ html, body {
   .nav span {
     color: #02C39A; }
 
+a {
+  -webkit-transition: all 1s ease-in-out;
+  -moz-transition: all 1s ease-in-out;
+  -o-transition: all 1s ease-in-out;
+  transition: all 1s ease-in-out; }
+
 .logo img {
   height: 300px; }
 
@@ -118,6 +124,9 @@ footer {
     background-color: #262859;
     color: #262859;
     width: 3px; }
+
+a {
+  text-decoration: none; }
 
 .section-two {
   width: 100%;
@@ -235,5 +244,18 @@ footer {
       width: 400px;
       text-align: center;
       padding: 40px; }
+
+@media only screen and (max-width: 1500px) {
+  .title {
+    padding-top: 50px; }
+    .title .logo img {
+      height: 200px; }
+    .title .fa-angle-double-down {
+      padding-top: 30px; }
+
+  .section-two p {
+    font-size: 15px; }
+  .section-two .phone-image-group .phone {
+    width: 330px; } }
 
 /*# sourceMappingURL=main.css.map */
